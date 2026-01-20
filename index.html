@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rojalin Chand | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">RC</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section hero">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="bg.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="role">WEB DEVELOPER | FRONTEND & BACKEND</p>
+        <h1>Hi, I’m <span>Rojalin Chand</span></h1>
+        <p class="desc">
+          Web developer with hands-on experience building responsive, database-driven applications using React, JavaScript, Python, and REST APIs.s
+        </p>
+        <a href="Rojalin_Chand_Resume.pdf" class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="about" class="section about">
+      <h2>About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Education</h3>
+          <p><strong>MCA</strong> – Atria Institute of Technology (2021–2023)
+          </p>
+          <p><strong>BCA</strong> – Vikash Group of Institutions(2018-2021)</p>
+        </div>
+
+        <div class="about-card">
+          <h3>Experience</h3>
+          <p><strong>Full Stack Java Intern</strong></p>
+          <p>Online Art Gallery (MEAN Stack)</p>
+          <p>Oct 2022 – Dec 2022</p>
+          <ul>
+            <li>Developed responsive frontend components and integrated them with REST APIs</li>
+            <li>Implemented backend modules for user management and artwork listings</li>
+            <li>Worked with MongoDB for data storage and retrieval</li>
+            <li>Gained experience in full-stack project structure, debugging, and version control</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section projects-section">
+      <h2>My <span>Projects</span></h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card bg-health">
+          <div class="project-overlay">
+          <h3>Clinical Decision Support System</h3>
+          <p>
+            Web-based system for real-time patient data analysis and treatment
+            recommendations.
+          </p>
+          <ul>
+            <li>Backend logic for clinical data processing</li>
+            <li>ML integration via REST APIs</li>
+            <li>Responsive UI for recommendations</li>
+          </ul>
+          <div class="tech-stack">
+            HTML • CSS • JavaScript • Python • REST APIs
+          </div>
+          <a href="https://github.com/yourgithublink" target="_blank"
+            >View on GitHub →</a
+          >
+        </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card bg-crime">
+          <div class="project-overlay">
+            <h3>Crime Reporting System</h3>
+            <p>
+              Secure database-driven web application for submitting and managing
+              digital crime reports.
+            </p>
+            <ul>
+              <li>CRUD operations with MySQL</li>
+              <li>Backend report handling modules</li>
+              <li>Form-based UI with validation</li>
+            </ul>
+            <div class="tech-stack">HTML • CSS • JavaScript • PHP • MySQL</div>
+            <a href="https://github.com/yourgithublink" target="_blank"
+              >View on GitHub →</a
+            >
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card bg-predict">
+          <div class="project-overlay">
+          <h3>House Price Prediction System</h3>
+          <p>
+            Machine learning-based web application to predict residential
+            property prices.
+          </p>
+          <ul>
+            <li>ML model implementation and evaluation</li>
+            <li>User input form and prediction output</li>
+            <li>Clean data visualization</li>
+          </ul>
+          <div class="tech-stack">
+            Python • Machine Learning • HTML • CSS • JavaScript
+          </div>
+          <a href="https://github.com/yourgithublink" target="_blank"
+            >View on GitHub →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <h2>My <span>Skills</span></h2>
+
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-card">
+          <h3><i class="fa-solid fa-code"></i> Frontend</h3>
+          <div class="skill-items">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card">
+          <h3><i class="fa-solid fa-server"></i> Backend</h3>
+          <div class="skill-items">
+            <span>Python</span>
+            <span>Java</span>
+            <span>PHP</span>
+            <span>REST APIs</span>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card">
+          <h3><i class="fa-solid fa-database"></i> Database</h3>
+          <div class="skill-items">
+            <span>MySQL</span>
+            <span>SQL</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+          <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+          <div class="skill-items">
+            <span>Git</span>
+            <span>Docker</span>
+            <span>AWS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact <span>Me</span></h2>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <h4>Email</h4>
+            <p>rojachand01@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 63726 15154</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Bangalore,Karnataka,India</p>
+          </div>
+        </div>
+
+        <div class="contact-social">
+          
+          <div class="social-icons">
+            <a href="https://github.com/Rojachand01" target="_blank">Git</a>
+            <a
+              href="https://www.linkedin.com/in/rojalinchand01/"
+              target="_blank"
+              >in</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document
+        .querySelectorAll(".section, .card, .project-card, .skill-card")
+        .forEach((el) => {
+          el.classList.add("hidden");
+          observer.observe(el);
+        });
+    </script>
+  </body>
+</html>
